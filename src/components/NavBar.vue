@@ -4,12 +4,10 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-
-
-    <nav>
-      <RouterLink class="nav_link" to="/">Home</RouterLink>
-      <RouterLink class="nav_link" to="/counter">Counter</RouterLink>
-    </nav>
+  <nav>
+    <RouterLink class="nav_link" to="/">Home</RouterLink>
+    <RouterLink class="nav_link" to="/counter">Counter</RouterLink>
+  </nav>
   <RouterView />
 </template>
 
@@ -19,11 +17,10 @@ import { RouterLink, RouterView } from 'vue-router'
 }
 a,
 .green {
+  font-size: 1.5rem;
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-.nav_link{
+  transition: 0.4s ease-in-out;
   margin-left: 1rem;
 }
 
