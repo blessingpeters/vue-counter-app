@@ -1,15 +1,6 @@
 <template>
-  <div class="about">
+  <main>
     <h1>404 - Page not found</h1>
-  </div>
+  </main>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
